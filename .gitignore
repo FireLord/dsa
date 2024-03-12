@@ -1,0 +1,5 @@
+*.kt~
+*.kotlin_builtins
+*.jar
+.vscode/
+.DS_Store
