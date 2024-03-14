@@ -1,3 +1,7 @@
 {
-    "files.exclude": {"**/*.jar": true}
+    "files.exclude": {
+        "**/*.jar": true
+    },
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.typeCheckingMode": "basic"
 }
