@@ -31,7 +31,7 @@
         {
             "label": "run Python script",
             "type": "shell",
-            "command": "python ${file} < input.txt > output.txt",
+            "command": "python3 ${file} < input.txt > output.txt",
             "group": {
                 "kind": "build",
                 "isDefault": true
