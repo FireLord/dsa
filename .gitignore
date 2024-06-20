@@ -2,5 +2,4 @@
 *.kotlin_builtins
 *.jar
 .DS_Store
-input.txt
-output.txt
+*.txt

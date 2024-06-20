@@ -31,20 +31,17 @@
         {
             "label": "run Python script",
             "type": "shell",
-            "command": "python3 ${file} < input.txt > output.txt",
+            "command": "python3 ${file} < input.txt > output.txt 2> error.txt",
             "group": {
                 "kind": "build",
                 "isDefault": true
             },
             "presentation": {
-                "reveal": "silent"
+                "reveal": "never"
             },
             "problemMatcher": {
                 "owner": "python",
-                "fileLocation": [
-                    "relative",
-                    "${fileDirname}"
-                ],
+                "fileLocation": ["relative", "${fileDirname}"],
                 "pattern": {
                     "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",
                     "file": 1,
