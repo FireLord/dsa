@@ -37,7 +37,7 @@
                 "isDefault": true
             },
             "presentation": {
-                "reveal": "never"
+                "reveal": "silent"
             },
             "problemMatcher": {
                 "owner": "python",
