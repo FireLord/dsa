@@ -1,4 +1,5 @@
 # optimal
+# moore's voting algorithm
 def majorityElementOpt(nums):
     n = len(nums)
     element = 0
