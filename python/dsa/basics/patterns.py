@@ -273,7 +273,7 @@ def main():
     # pattern4(n)
     # pattern5(n)
     # pattern6(n)
-    # pattern7(n) important!
+    # pattern7(n) #important!
     # pattern8(n)
     # pattern9(n)
     # pattern10(n)
@@ -283,11 +283,11 @@ def main():
     # pattern14(n)
     # pattern15(n)
     # pattern16(n)
-    # pattern17(n) important!
-    # pattern18(n) important!
-    # pattern19(n) important!
-    # pattern20(n) important!
-    # pattern21(n) important!
+    # pattern17(n) #important!
+    # pattern18(n) #important!
+    # pattern19(n) #important!
+    # pattern20(n) #important!
+    # pattern21(n) #important!
     pattern22(n)
 
 
