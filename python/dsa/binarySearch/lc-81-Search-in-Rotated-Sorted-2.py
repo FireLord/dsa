@@ -5,7 +5,13 @@ def searchBinary(nums, target):
     while low <= high:
         mid = (low + high) // 2
         if nums[mid] == target:
-            return mid # the mid is the answer we are looking for which will be moving
+            return True # the mid is the answer we are looking for which will be moving
+        
+        # for duplicate elements we will handle the edge case rest works fine!!
+        if nums[low] == nums[mid] and nums[mid] == nums[high]:
+            low += 1
+            high -= 1
+            continue
         
         # check if left side is sorted from mid pivot
         if nums[low] <= nums[mid]:
@@ -22,7 +28,7 @@ def searchBinary(nums, target):
             else:
                 high = mid - 1
 
-    return -1 
+    return False
 
 
 def main():
